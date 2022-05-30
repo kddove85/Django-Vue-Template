@@ -26,5 +26,9 @@
     ```
 4. Run the following command:
     ```commandline
-    $ npm run dev
+    $ npm install
+    ```
+ 5. Run the following command:
+    ```commandline
+    $ npm run serve
     ```
