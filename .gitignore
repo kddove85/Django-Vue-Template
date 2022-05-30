@@ -127,3 +127,55 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Unit test / coverage reports
+cover/
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Django
+**/staticfiles
+
+# Misc
+.DS_Store
+.vscode
+dev/
+.devcontainer/
+
+**/node_modules/
+webpack-stats.json
+src/assets/bundles/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+config/
+node_modules/
+/dist/
